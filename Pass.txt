@@ -1,0 +1,38 @@
+//the password class
+/*class password
+{
+
+public:
+    string pass;
+    void getPassword()
+    {
+        cout<<"\nChoose a password for your system:"<<endl;
+        cin>>pass;
+    }
+
+    int verifyPassword()
+    {
+        string x;
+        cout<<"\nEnter the password:"<<endl;
+        cin>>x;
+        if (x==pass)
+            return 1;
+        else
+            return 0;
+    }
+
+    void passwordProtect()
+    {
+        int veri=verifyPassword();
+
+        if(veri==1)
+        {
+            cout<<"\nAccess Granted!"<<endl;
+        }
+        else
+        {
+            cout<<right<<setw(40)<<setfill(' ')<<"\nAccess Denied!\n\nSystem will shut down\n\nPlease come back again."<<endl;
+            exit(0);
+        }
+    }
+};*/
